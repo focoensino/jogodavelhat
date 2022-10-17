@@ -17,6 +17,10 @@ document.querySelectorAll('.item').forEach(item =>{
 item.addEventListener('touchstart', itemClick);
 })
 
+document.querySelector('.reset').addEventListener('click',reset);
+document.querySelectorAll('.item').forEach(item =>{
+item.addEventListener('click', itemClick);
+})
 
 //Functions
 
